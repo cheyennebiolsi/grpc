@@ -48,8 +48,12 @@ class Greeter(helloworld_pb2.GreeterServicer):
 def serve():
   server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
   helloworld_pb2.add_GreeterServicer_to_server(Greeter(), server)
-  server.add_insecure_port('[::]:50051')
-  server.start()
+  server_key = open('hello-server.key').read()
+  server_crt = open('hello-server.crt').read()
+  root_crt =  open('ca.crt').read()
+  creds = grpc.ssl_server_credentials([(server_key, server_crt)], root_crt)
+  server.add_secure_port('[::]:8085', creds)    
+  server.start()    
   try:
     while True:
       time.sleep(_ONE_DAY_IN_SECONDS)

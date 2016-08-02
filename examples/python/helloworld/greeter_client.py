@@ -37,7 +37,14 @@ import helloworld_pb2
 
 
 def run():
-  channel = grpc.insecure_channel('localhost:50051')
+  client_key = open('hello-client.key').read()   
+  client_crt = open('hello-client.crt').read()   
+  root_crt =  open('ca.crt').read()   
+  creds = grpc.ssl_channel_credentials(
+      root_certificates=root_crt,
+      private_key=client_key,
+      certificate_chain=client_crt)   
+  channel = grpc.secure_channel('hello-server:8085', creds)   
   stub = helloworld_pb2.GreeterStub(channel)
   response = stub.SayHello(helloworld_pb2.HelloRequest(name='you'))
   print("Greeter client received: " + response.message)

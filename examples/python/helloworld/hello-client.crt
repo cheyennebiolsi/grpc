@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=NY, L=New York, O=Home, OU=Certifier, CN=Home CA/name=HOME/emailAddress=me@example.com
+        Validity
+            Not Before: Aug  2 22:45:39 2016 GMT
+            Not After : Jul 31 22:45:39 2026 GMT
+        Subject: C=US, ST=NY, L=New York, O=Home, OU=Certifier, CN=hello-client/name=HOME/emailAddress=me@example.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c1:3f:2b:a5:b6:b2:b5:ce:db:9b:50:c7:28:c4:
+                    57:f5:e2:4c:80:36:45:58:30:5e:3c:64:a4:20:1f:
+                    73:c6:9e:dc:2c:c5:ce:da:61:2f:e6:12:5e:4d:aa:
+                    95:22:e5:94:44:6e:22:fa:1f:49:b9:40:84:a4:5a:
+                    1a:34:ce:e9:06:9f:1e:ab:87:8c:95:75:ff:bf:6c:
+                    17:a8:f0:36:6c:88:f2:46:04:2b:16:14:6c:f4:1f:
+                    e0:71:58:53:3f:04:27:12:df:5e:a2:db:ec:24:5e:
+                    f9:89:92:89:64:63:fb:da:74:58:05:86:4d:a7:cc:
+                    d9:b7:86:75:bd:c8:00:fa:a7:41:b7:d8:1e:c8:0c:
+                    a4:8c:c2:d2:a6:19:ea:0d:52:cb:0d:88:1e:6a:39:
+                    a2:8d:17:04:72:37:b4:98:b9:e2:9a:1c:1b:0c:19:
+                    ad:a3:9a:8b:05:03:08:a9:e0:b8:94:99:90:17:1f:
+                    68:1f:30:b2:c1:4c:9b:64:0c:c7:80:df:1e:25:4b:
+                    40:32:90:7b:51:b5:a0:24:10:02:0e:7e:bf:db:e0:
+                    be:af:be:2b:35:71:e1:a8:03:ca:58:1d:d5:4a:54:
+                    d3:c9:ea:f5:43:ca:76:9a:0b:a0:47:67:1c:3d:17:
+                    03:4e:08:e4:17:96:08:8c:c8:7e:16:ed:d4:7c:2b:
+                    73:cd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                05:EB:2C:27:9B:1C:9E:8E:09:C5:BD:72:C8:C9:C5:5C:0D:C5:F9:9F
+            X509v3 Authority Key Identifier: 
+                keyid:6F:0D:38:32:A2:DE:53:4E:56:3B:ED:1E:D3:5D:9F:6B:1D:CA:DD:CF
+                DirName:/C=US/ST=NY/L=New York/O=Home/OU=Certifier/CN=Home CA/name=HOME/emailAddress=me@example.com
+                serial:E4:C6:57:ED:84:25:11:BC
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:hello-client
+    Signature Algorithm: sha256WithRSAEncryption
+         34:3c:2e:63:1c:5b:22:2d:7d:87:69:ba:5e:42:c2:28:9d:2c:
+         84:b5:b0:7a:b3:03:69:68:c6:20:b1:e7:f7:86:df:5e:f8:9d:
+         5b:20:85:1d:46:8d:35:d6:76:7d:d2:88:71:7c:51:fd:80:b6:
+         4d:91:7f:05:b6:ae:6f:f6:91:64:33:dc:65:ca:eb:b9:f7:b3:
+         3c:d8:68:53:c7:ce:6f:5d:81:f1:71:54:d6:0a:79:48:12:09:
+         e4:9e:d2:6b:d3:9c:04:cb:9b:ff:0f:f5:37:8c:e7:e3:32:ca:
+         de:a2:12:1c:8a:7d:3c:f6:5c:09:c4:9c:19:c9:45:d8:15:49:
+         00:3d:04:b2:a7:36:f7:c7:6d:ae:88:9c:7d:c0:ad:ff:1b:f3:
+         44:cc:84:3c:78:3f:84:16:f6:9e:1d:4e:b4:d0:3a:87:36:98:
+         1c:f6:e2:cd:ab:06:c5:07:a8:55:92:3f:18:c4:db:c1:09:38:
+         fa:b4:d7:77:82:a9:3f:12:4e:8b:e0:c4:3e:f0:44:2b:97:c8:
+         07:93:54:21:4d:6d:7c:b0:32:c7:65:5c:55:00:28:d0:2b:ca:
+         d1:a8:ee:58:93:0c:c3:12:4c:cf:bd:f6:92:ce:8d:41:c3:3d:
+         7a:66:92:63:ee:be:4d:68:d5:62:50:8b:3b:3a:6b:9b:54:0d:
+         de:43:8c:f7
+-----BEGIN CERTIFICATE-----
+MIIFBDCCA+ygAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAk5ZMREwDwYDVQQHEwhOZXcgWW9yazENMAsGA1UEChMESG9tZTES
+MBAGA1UECxMJQ2VydGlmaWVyMRAwDgYDVQQDEwdIb21lIENBMQ0wCwYDVQQpEwRI
+T01FMR0wGwYJKoZIhvcNAQkBFg5tZUBleGFtcGxlLmNvbTAeFw0xNjA4MDIyMjQ1
+MzlaFw0yNjA3MzEyMjQ1MzlaMIGVMQswCQYDVQQGEwJVUzELMAkGA1UECBMCTlkx
+ETAPBgNVBAcTCE5ldyBZb3JrMQ0wCwYDVQQKEwRIb21lMRIwEAYDVQQLEwlDZXJ0
+aWZpZXIxFTATBgNVBAMTDGhlbGxvLWNsaWVudDENMAsGA1UEKRMESE9NRTEdMBsG
+CSqGSIb3DQEJARYObWVAZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDBPyultrK1ztubUMcoxFf14kyANkVYMF48ZKQgH3PGntwsxc7a
+YS/mEl5NqpUi5ZREbiL6H0m5QISkWho0zukGnx6rh4yVdf+/bBeo8DZsiPJGBCsW
+FGz0H+BxWFM/BCcS316i2+wkXvmJkolkY/vadFgFhk2nzNm3hnW9yAD6p0G32B7I
+DKSMwtKmGeoNUssNiB5qOaKNFwRyN7SYueKaHBsMGa2jmosFAwip4LiUmZAXH2gf
+MLLBTJtkDMeA3x4lS0AykHtRtaAkEAIOfr/b4L6vvis1ceGoA8pYHdVKVNPJ6vVD
+ynaaC6BHZxw9FwNOCOQXlgiMyH4W7dR8K3PNAgMBAAGjggFgMIIBXDAJBgNVHRME
+AjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNh
+dGUwHQYDVR0OBBYEFAXrLCebHJ6OCcW9csjJxVwNxfmfMIHFBgNVHSMEgb0wgbqA
+FG8NODKi3lNOVjvtHtNdn2sdyt3PoYGWpIGTMIGQMQswCQYDVQQGEwJVUzELMAkG
+A1UECBMCTlkxETAPBgNVBAcTCE5ldyBZb3JrMQ0wCwYDVQQKEwRIb21lMRIwEAYD
+VQQLEwlDZXJ0aWZpZXIxEDAOBgNVBAMTB0hvbWUgQ0ExDTALBgNVBCkTBEhPTUUx
+HTAbBgkqhkiG9w0BCQEWDm1lQGV4YW1wbGUuY29tggkA5MZX7YQlEbwwEwYDVR0l
+BAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeAMBcGA1UdEQQQMA6CDGhlbGxvLWNs
+aWVudDANBgkqhkiG9w0BAQsFAAOCAQEANDwuYxxbIi19h2m6XkLCKJ0shLWwerMD
+aWjGILHn94bfXvidWyCFHUaNNdZ2fdKIcXxR/YC2TZF/Bbaub/aRZDPcZcrrufez
+PNhoU8fOb12B8XFU1gp5SBIJ5J7Sa9OcBMub/w/1N4zn4zLK3qISHIp9PPZcCcSc
+GclF2BVJAD0Esqc298dtroicfcCt/xvzRMyEPHg/hBb2nh1OtNA6hzaYHPbizasG
+xQeoVZI/GMTbwQk4+rTXd4KpPxJOi+DEPvBEK5fIB5NUIU1tfLAyx2VcVQAo0CvK
+0ajuWJMMwxJMz732ks6NQcM9emaSY+6+TWjVYlCLOzprm1QN3kOM9w==
+-----END CERTIFICATE-----
